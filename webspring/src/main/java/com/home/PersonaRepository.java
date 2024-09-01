@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+import com.home.models.Persona;
+
 @Component
 public class PersonaRepository {
 	private List personas = new ArrayList<Persona>();
